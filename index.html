@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Match Arena — Ultimate Card Matching Game</title>
+  <meta name="description" content="Production-quality Memory Card Matching Game featuring 5 game modes, 4 difficulty levels, 6 visual themes, player leveling, achievements, leaderboards, and synthesized audio.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/typography.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components/navbar.css">
+  <link rel="stylesheet" href="css/components/profile.css">
+  <link rel="stylesheet" href="css/components/modals.css">
+</head>
+<body>
+  <div id="app-container">
+    <!-- Top Navigation Bar -->
+    <header class="navbar">
+      <div class="nav-content">
+        <div class="nav-brand" id="nav-brand-logo">
+          <div class="nav-brand-logo">🧠</div>
+          <span>Memory Match <span class="text-gradient">Arena</span></span>
+        </div>
+
+        <nav class="nav-links" id="nav-links-menu">
+          <a class="nav-item active" data-route="home" href="#home"><span>🏠</span> Home</a>
+          <a class="nav-item" data-route="play" href="#play"><span>🎮</span> Play</a>
+          <a class="nav-item" data-route="daily" href="#daily"><span>📅</span> Daily</a>
+          <a class="nav-item" data-route="leaderboard" href="#leaderboard"><span>🏆</span> Ranks</a>
+          <a class="nav-item" data-route="achievements" href="#achievements"><span>🏅</span> Badges</a>
+          <a class="nav-item" data-route="profile" href="#profile"><span>👤</span> Profile</a>
+          <a class="nav-item" data-route="settings" href="#settings"><span>⚙️</span> Settings</a>
+          <a class="nav-item" data-route="help" href="#help"><span>❓</span> Help</a>
+        </nav>
+
+        <div class="nav-user-badge" id="nav-user-profile-badge" title="View Profile">
+          <div class="nav-user-avatar" id="nav-avatar-display">🐱</div>
+          <div class="nav-user-name" id="nav-username-display">MemoryChamp</div>
+          <div class="nav-user-level" id="nav-level-display">Lv.1</div>
+        </div>
+
+        <button class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Toggle navigation">☰</button>
+      </div>
+    </header>
+
+    <!-- Main View Containers -->
+    <main style="flex: 1;">
+      <section id="view-home" class="view-container active"></section>
+      <section id="view-play" class="view-container"></section>
+      <section id="view-results" class="view-container"></section>
+      <section id="view-profile" class="view-container"></section>
+      <section id="view-achievements" class="view-container"></section>
+      <section id="view-leaderboard" class="view-container"></section>
+      <section id="view-daily" class="view-container"></section>
+      <section id="view-settings" class="view-container"></section>
+      <section id="view-help" class="view-container"></section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>© 2026 Memory Match Arena. Production-Quality ES6+ Application.</p>
+    </footer>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container"></div>
+
+  <!-- Canvas Overlay for Confetti Particles -->
+  <canvas id="confetti-canvas" style="position: fixed; inset: 0; pointer-events: none; z-index: 900;"></canvas>
+
+  <!-- Application Entrypoint -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

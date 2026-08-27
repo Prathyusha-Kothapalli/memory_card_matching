@@ -1,0 +1,29 @@
+{
+  "name": "memory-match-arena",
+  "version": "1.0.0",
+  "description": "Production-quality Memory Card Matching Game with ES6+, Web Audio, CSS3 design system, and multi-mode gameplay",
+  "main": "js/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx -y http-server . -p 8080 -c-1",
+    "test": "node test/runner.js",
+    "verify": "python3 scripts/verify_project.py",
+    "validate-score": "python3 scripts/validate_score.py",
+    "analyze-stats": "python3 scripts/analyze_stats.py"
+  },
+  "keywords": [
+    "memory-game",
+    "card-matching",
+    "vanilla-js",
+    "web-audio-api",
+    "html5-game",
+    "css3-animations"
+  ],
+  "author": "Memory Match Arena Engineering Team",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
