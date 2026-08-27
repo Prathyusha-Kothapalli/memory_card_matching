@@ -1,0 +1,130 @@
+/* Memory Match Arena - Gameboard Layout & HUD Bar */
+.game-header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: var(--bg-glass-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.hud-stat-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hud-stat-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.hud-stat-value {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.combo-badge {
+  font-size: 1rem;
+  padding: 0.2rem 0.6rem;
+  background: var(--gradient-gold);
+  color: var(--text-inverse);
+  border-radius: var(--border-radius-full);
+  font-weight: 800;
+  animation: bounce 500ms ease;
+}
+
+/* Grid Layouts for Difficulties */
+.gameboard-grid {
+  display: grid;
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 1rem;
+  background: rgba(11, 15, 25, 0.4);
+  border-radius: var(--border-radius-xl);
+  border: 1px solid var(--border-color);
+}
+
+.gameboard-grid.grid-4x4 {
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 520px;
+}
+
+.gameboard-grid.grid-6x6 {
+  grid-template-columns: repeat(6, 1fr);
+  max-width: 680px;
+  gap: 0.5rem;
+}
+
+.gameboard-grid.grid-8x8 {
+  grid-template-columns: repeat(8, 1fr);
+  max-width: 820px;
+  gap: 0.4rem;
+}
+
+.gameboard-grid.grid-10x10 {
+  grid-template-columns: repeat(10, 1fr);
+  max-width: 950px;
+  gap: 0.35rem;
+}
+
+.gameboard-grid.grid-10x10 .card-face {
+  font-size: clamp(1rem, 2.5vw, 1.8rem);
+}
+
+/* Powerups Toolbar */
+.powerups-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.powerup-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.25rem;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-full);
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all var(--transition-fast);
+}
+
+.powerup-btn:hover:not(:disabled) {
+  border-color: var(--accent-amber);
+  background: rgba(245, 158, 11, 0.15);
+  color: var(--accent-amber);
+  transform: translateY(-2px);
+}
+
+.powerup-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.powerup-count {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--accent-amber);
+  color: var(--text-inverse);
+  font-size: 0.75rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

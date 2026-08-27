@@ -6,6 +6,8 @@ import { eventBus } from './core/event_bus.js';
 import { profileManager } from './managers/profile_manager.js';
 import { homeView } from './views/home_view.js';
 import { profileView } from './views/profile_view.js';
+import { gameView } from './views/game_view.js';
+import { resultsView } from './views/results_view.js';
 import { $, $$ } from './utils/helpers.js';
 
 class App {
@@ -14,6 +16,8 @@ class App {
 
     // Register routes
     router.register('home', homeView);
+    router.register('play', gameView);
+    router.register('results', resultsView);
     router.register('profile', profileView);
 
     // Initial Navbar User Badge Update
