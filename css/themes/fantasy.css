@@ -1,0 +1,15 @@
+/* Theme: Fantasy */
+body[data-theme="fantasy"] {
+  --bg-primary: #2e1065;
+  --bg-secondary: #3b0764;
+  --bg-tertiary: #581c87;
+  --accent-primary: #a855f7;
+  --accent-secondary: #f43f5e;
+  --gradient-primary: linear-gradient(135deg, #a855f7 0%, #d946ef 100%);
+  --gradient-card-back: linear-gradient(135deg, #4c1d95 0%, #6b21a8 100%);
+  --border-color-glow: rgba(168, 85, 247, 0.4);
+}
+
+body[data-theme="fantasy"] .card-back::after {
+  content: '🔮';
+}

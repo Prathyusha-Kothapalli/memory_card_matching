@@ -1,0 +1,15 @@
+/* Theme: Sports */
+body[data-theme="sports"] {
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-tertiary: #334155;
+  --accent-primary: #0284c7;
+  --accent-secondary: #f43f5e;
+  --gradient-primary: linear-gradient(135deg, #0284c7 0%, #38bdf8 100%);
+  --gradient-card-back: linear-gradient(135deg, #0369a1 0%, #075985 100%);
+  --border-color-glow: rgba(2, 132, 199, 0.4);
+}
+
+body[data-theme="sports"] .card-back::after {
+  content: '⚽';
+}

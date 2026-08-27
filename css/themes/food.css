@@ -1,0 +1,15 @@
+/* Theme: Food */
+body[data-theme="food"] {
+  --bg-primary: #451a03;
+  --bg-secondary: #78350f;
+  --bg-tertiary: #92400e;
+  --accent-primary: #f97316;
+  --accent-secondary: #eab308;
+  --gradient-primary: linear-gradient(135deg, #f97316 0%, #fb923c 100%);
+  --gradient-card-back: linear-gradient(135deg, #7c2d12 0%, #9a3412 100%);
+  --border-color-glow: rgba(249, 115, 22, 0.4);
+}
+
+body[data-theme="food"] .card-back::after {
+  content: '🍕';
+}
