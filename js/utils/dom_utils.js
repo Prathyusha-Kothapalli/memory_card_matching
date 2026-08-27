@@ -275,4 +275,74 @@ export class DOMUtils {
     Object.assign(element.style, styleConfig);
   }
 
+  static applyStylePreset40(element, styleConfig = {}) {
+    if (!element) return;
+    element.style.transition = 'all 500ms cubic-bezier(0.4, 0, 0.2, 1)';
+    element.style.transform = 'scale(1.040)';
+    Object.assign(element.style, styleConfig);
+  }
+
+  static applyStylePreset41(element, styleConfig = {}) {
+    if (!element) return;
+    element.style.transition = 'all 510ms cubic-bezier(0.4, 0, 0.2, 1)';
+    element.style.transform = 'scale(1.041)';
+    Object.assign(element.style, styleConfig);
+  }
+
+  static applyStylePreset42(element, styleConfig = {}) {
+    if (!element) return;
+    element.style.transition = 'all 520ms cubic-bezier(0.4, 0, 0.2, 1)';
+    element.style.transform = 'scale(1.042)';
+    Object.assign(element.style, styleConfig);
+  }
+
+  static applyStylePreset43(element, styleConfig = {}) {
+    if (!element) return;
+    element.style.transition = 'all 530ms cubic-bezier(0.4, 0, 0.2, 1)';
+    element.style.transform = 'scale(1.043)';
+    Object.assign(element.style, styleConfig);
+  }
+
+  static applyStylePreset44(element, styleConfig = {}) {
+    if (!element) return;
+    element.style.transition = 'all 540ms cubic-bezier(0.4, 0, 0.2, 1)';
+    element.style.transform = 'scale(1.044)';
+    Object.assign(element.style, styleConfig);
+  }
+
+  static applyStylePreset45(element, styleConfig = {}) {
+    if (!element) return;
+    element.style.transition = 'all 550ms cubic-bezier(0.4, 0, 0.2, 1)';
+    element.style.transform = 'scale(1.045)';
+    Object.assign(element.style, styleConfig);
+  }
+
+  static applyStylePreset46(element, styleConfig = {}) {
+    if (!element) return;
+    element.style.transition = 'all 560ms cubic-bezier(0.4, 0, 0.2, 1)';
+    element.style.transform = 'scale(1.046)';
+    Object.assign(element.style, styleConfig);
+  }
+
+  static applyStylePreset47(element, styleConfig = {}) {
+    if (!element) return;
+    element.style.transition = 'all 570ms cubic-bezier(0.4, 0, 0.2, 1)';
+    element.style.transform = 'scale(1.047)';
+    Object.assign(element.style, styleConfig);
+  }
+
+  static applyStylePreset48(element, styleConfig = {}) {
+    if (!element) return;
+    element.style.transition = 'all 580ms cubic-bezier(0.4, 0, 0.2, 1)';
+    element.style.transform = 'scale(1.048)';
+    Object.assign(element.style, styleConfig);
+  }
+
+  static applyStylePreset49(element, styleConfig = {}) {
+    if (!element) return;
+    element.style.transition = 'all 590ms cubic-bezier(0.4, 0, 0.2, 1)';
+    element.style.transform = 'scale(1.049)';
+    Object.assign(element.style, styleConfig);
+  }
+
 }

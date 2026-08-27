@@ -1,5 +1,5 @@
 /**
- * Memory Match Arena - 250 Levels Progression Database
+ * Memory Match Arena - 300 Levels Progression Database
  */
 export const LEVELS_DATABASE = [
   {
@@ -2001,5 +2001,405 @@ export const LEVELS_DATABASE = [
     xpRequired: 790569,
     rewardXPBonus: 12500,
     unlockedFeature: 'Level 250 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 251,
+    title: 'Memory Master Level 251',
+    badge: '👑',
+    xpRequired: 795317,
+    rewardXPBonus: 12550,
+    unlockedFeature: 'Level 251 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 252,
+    title: 'Memory Master Level 252',
+    badge: '👑',
+    xpRequired: 800075,
+    rewardXPBonus: 12600,
+    unlockedFeature: 'Level 252 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 253,
+    title: 'Memory Master Level 253',
+    badge: '👑',
+    xpRequired: 804842,
+    rewardXPBonus: 12650,
+    unlockedFeature: 'Level 253 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 254,
+    title: 'Memory Master Level 254',
+    badge: '👑',
+    xpRequired: 809618,
+    rewardXPBonus: 12700,
+    unlockedFeature: 'Level 254 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 255,
+    title: 'Memory Master Level 255',
+    badge: '👑',
+    xpRequired: 814404,
+    rewardXPBonus: 12750,
+    unlockedFeature: 'Level 255 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 256,
+    title: 'Memory Master Level 256',
+    badge: '👑',
+    xpRequired: 819200,
+    rewardXPBonus: 12800,
+    unlockedFeature: 'Level 256 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 257,
+    title: 'Memory Master Level 257',
+    badge: '👑',
+    xpRequired: 824004,
+    rewardXPBonus: 12850,
+    unlockedFeature: 'Level 257 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 258,
+    title: 'Memory Master Level 258',
+    badge: '👑',
+    xpRequired: 828818,
+    rewardXPBonus: 12900,
+    unlockedFeature: 'Level 258 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 259,
+    title: 'Memory Master Level 259',
+    badge: '👑',
+    xpRequired: 833642,
+    rewardXPBonus: 12950,
+    unlockedFeature: 'Level 259 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 260,
+    title: 'Memory Master Level 260',
+    badge: '👑',
+    xpRequired: 838474,
+    rewardXPBonus: 13000,
+    unlockedFeature: 'Level 260 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 261,
+    title: 'Memory Master Level 261',
+    badge: '👑',
+    xpRequired: 843316,
+    rewardXPBonus: 13050,
+    unlockedFeature: 'Level 261 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 262,
+    title: 'Memory Master Level 262',
+    badge: '👑',
+    xpRequired: 848168,
+    rewardXPBonus: 13100,
+    unlockedFeature: 'Level 262 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 263,
+    title: 'Memory Master Level 263',
+    badge: '👑',
+    xpRequired: 853028,
+    rewardXPBonus: 13150,
+    unlockedFeature: 'Level 263 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 264,
+    title: 'Memory Master Level 264',
+    badge: '👑',
+    xpRequired: 857898,
+    rewardXPBonus: 13200,
+    unlockedFeature: 'Level 264 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 265,
+    title: 'Memory Master Level 265',
+    badge: '👑',
+    xpRequired: 862777,
+    rewardXPBonus: 13250,
+    unlockedFeature: 'Level 265 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 266,
+    title: 'Memory Master Level 266',
+    badge: '👑',
+    xpRequired: 867665,
+    rewardXPBonus: 13300,
+    unlockedFeature: 'Level 266 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 267,
+    title: 'Memory Master Level 267',
+    badge: '👑',
+    xpRequired: 872563,
+    rewardXPBonus: 13350,
+    unlockedFeature: 'Level 267 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 268,
+    title: 'Memory Master Level 268',
+    badge: '👑',
+    xpRequired: 877469,
+    rewardXPBonus: 13400,
+    unlockedFeature: 'Level 268 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 269,
+    title: 'Memory Master Level 269',
+    badge: '👑',
+    xpRequired: 882385,
+    rewardXPBonus: 13450,
+    unlockedFeature: 'Level 269 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 270,
+    title: 'Memory Master Level 270',
+    badge: '👑',
+    xpRequired: 887310,
+    rewardXPBonus: 13500,
+    unlockedFeature: 'Level 270 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 271,
+    title: 'Memory Master Level 271',
+    badge: '👑',
+    xpRequired: 892244,
+    rewardXPBonus: 13550,
+    unlockedFeature: 'Level 271 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 272,
+    title: 'Memory Master Level 272',
+    badge: '👑',
+    xpRequired: 897187,
+    rewardXPBonus: 13600,
+    unlockedFeature: 'Level 272 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 273,
+    title: 'Memory Master Level 273',
+    badge: '👑',
+    xpRequired: 902140,
+    rewardXPBonus: 13650,
+    unlockedFeature: 'Level 273 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 274,
+    title: 'Memory Master Level 274',
+    badge: '👑',
+    xpRequired: 907101,
+    rewardXPBonus: 13700,
+    unlockedFeature: 'Level 274 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 275,
+    title: 'Memory Master Level 275',
+    badge: '👑',
+    xpRequired: 912071,
+    rewardXPBonus: 13750,
+    unlockedFeature: 'Level 275 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 276,
+    title: 'Memory Master Level 276',
+    badge: '👑',
+    xpRequired: 917051,
+    rewardXPBonus: 13800,
+    unlockedFeature: 'Level 276 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 277,
+    title: 'Memory Master Level 277',
+    badge: '👑',
+    xpRequired: 922039,
+    rewardXPBonus: 13850,
+    unlockedFeature: 'Level 277 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 278,
+    title: 'Memory Master Level 278',
+    badge: '👑',
+    xpRequired: 927037,
+    rewardXPBonus: 13900,
+    unlockedFeature: 'Level 278 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 279,
+    title: 'Memory Master Level 279',
+    badge: '👑',
+    xpRequired: 932043,
+    rewardXPBonus: 13950,
+    unlockedFeature: 'Level 279 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 280,
+    title: 'Memory Master Level 280',
+    badge: '👑',
+    xpRequired: 937059,
+    rewardXPBonus: 14000,
+    unlockedFeature: 'Level 280 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 281,
+    title: 'Memory Master Level 281',
+    badge: '👑',
+    xpRequired: 942083,
+    rewardXPBonus: 14050,
+    unlockedFeature: 'Level 281 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 282,
+    title: 'Memory Master Level 282',
+    badge: '👑',
+    xpRequired: 947117,
+    rewardXPBonus: 14100,
+    unlockedFeature: 'Level 282 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 283,
+    title: 'Memory Master Level 283',
+    badge: '👑',
+    xpRequired: 952159,
+    rewardXPBonus: 14150,
+    unlockedFeature: 'Level 283 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 284,
+    title: 'Memory Master Level 284',
+    badge: '👑',
+    xpRequired: 957210,
+    rewardXPBonus: 14200,
+    unlockedFeature: 'Level 284 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 285,
+    title: 'Memory Master Level 285',
+    badge: '👑',
+    xpRequired: 962270,
+    rewardXPBonus: 14250,
+    unlockedFeature: 'Level 285 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 286,
+    title: 'Memory Master Level 286',
+    badge: '👑',
+    xpRequired: 967339,
+    rewardXPBonus: 14300,
+    unlockedFeature: 'Level 286 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 287,
+    title: 'Memory Master Level 287',
+    badge: '👑',
+    xpRequired: 972417,
+    rewardXPBonus: 14350,
+    unlockedFeature: 'Level 287 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 288,
+    title: 'Memory Master Level 288',
+    badge: '👑',
+    xpRequired: 977504,
+    rewardXPBonus: 14400,
+    unlockedFeature: 'Level 288 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 289,
+    title: 'Memory Master Level 289',
+    badge: '👑',
+    xpRequired: 982600,
+    rewardXPBonus: 14450,
+    unlockedFeature: 'Level 289 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 290,
+    title: 'Memory Master Level 290',
+    badge: '👑',
+    xpRequired: 987704,
+    rewardXPBonus: 14500,
+    unlockedFeature: 'Level 290 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 291,
+    title: 'Memory Master Level 291',
+    badge: '👑',
+    xpRequired: 992817,
+    rewardXPBonus: 14550,
+    unlockedFeature: 'Level 291 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 292,
+    title: 'Memory Master Level 292',
+    badge: '👑',
+    xpRequired: 997939,
+    rewardXPBonus: 14600,
+    unlockedFeature: 'Level 292 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 293,
+    title: 'Memory Master Level 293',
+    badge: '👑',
+    xpRequired: 1003070,
+    rewardXPBonus: 14650,
+    unlockedFeature: 'Level 293 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 294,
+    title: 'Memory Master Level 294',
+    badge: '👑',
+    xpRequired: 1008209,
+    rewardXPBonus: 14700,
+    unlockedFeature: 'Level 294 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 295,
+    title: 'Memory Master Level 295',
+    badge: '👑',
+    xpRequired: 1013358,
+    rewardXPBonus: 14750,
+    unlockedFeature: 'Level 295 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 296,
+    title: 'Memory Master Level 296',
+    badge: '👑',
+    xpRequired: 1018515,
+    rewardXPBonus: 14800,
+    unlockedFeature: 'Level 296 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 297,
+    title: 'Memory Master Level 297',
+    badge: '👑',
+    xpRequired: 1023681,
+    rewardXPBonus: 14850,
+    unlockedFeature: 'Level 297 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 298,
+    title: 'Memory Master Level 298',
+    badge: '👑',
+    xpRequired: 1028855,
+    rewardXPBonus: 14900,
+    unlockedFeature: 'Level 298 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 299,
+    title: 'Memory Master Level 299',
+    badge: '👑',
+    xpRequired: 1034038,
+    rewardXPBonus: 14950,
+    unlockedFeature: 'Level 299 Custom Rewards & Perk Boost'
+  },
+  {
+    level: 300,
+    title: 'Memory Master Level 300',
+    badge: '👑',
+    xpRequired: 1039230,
+    rewardXPBonus: 15000,
+    unlockedFeature: 'Level 300 Custom Rewards & Perk Boost'
   }
 ];
