@@ -9,7 +9,12 @@ import { profileView } from './views/profile_view.js';
 import { gameView } from './views/game_view.js';
 import { resultsView } from './views/results_view.js';
 import { settingsView } from './views/settings_view.js';
+import { achievementsView } from './views/achievements_view.js';
+import { leaderboardView } from './views/leaderboard_view.js';
 import { themeManager } from './managers/theme_manager.js';
+import { achievementManager } from './managers/achievement_manager.js';
+import { statsManager } from './managers/stats_manager.js';
+import { leaderboardManager } from './managers/leaderboard_manager.js';
 import { particleEngine } from './core/particle_engine.js';
 import { setupConfettiTriggers } from './ui/confetti.js';
 import { $, $$ } from './utils/helpers.js';
@@ -29,6 +34,8 @@ class App {
     router.register('results', resultsView);
     router.register('profile', profileView);
     router.register('settings', settingsView);
+    router.register('achievements', achievementsView);
+    router.register('leaderboard', leaderboardView);
 
     // Initial Navbar User Badge Update
     this.updateUserBadge();
