@@ -1,0 +1,19 @@
+/* Memory Match Arena - Help / How to Play Styling */
+.help-section-card {
+  margin-bottom: 1.5rem;
+  padding: 1.75rem;
+}
+
+.help-grid-feature {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.help-feature-box {
+  padding: 1.25rem;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-md);
+}
