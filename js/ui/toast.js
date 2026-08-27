@@ -10,6 +10,7 @@ export class ToastManager {
   }
 
   initContainer() {
+    if (typeof document === 'undefined') return;
     let container = document.getElementById('toast-container');
     if (!container) {
       container = createElement('div', {
@@ -29,6 +30,7 @@ export class ToastManager {
    * @param {number} duration 
    */
   show(title, message = '', type = 'info', duration = 3500) {
+    if (!this.container) return;
     const icons = {
       success: '✅',
       info: 'ℹ️',
