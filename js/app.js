@@ -8,17 +8,27 @@ import { homeView } from './views/home_view.js';
 import { profileView } from './views/profile_view.js';
 import { gameView } from './views/game_view.js';
 import { resultsView } from './views/results_view.js';
+import { settingsView } from './views/settings_view.js';
+import { themeManager } from './managers/theme_manager.js';
+import { particleEngine } from './core/particle_engine.js';
+import { setupConfettiTriggers } from './ui/confetti.js';
 import { $, $$ } from './utils/helpers.js';
 
 class App {
   init() {
     console.log('[App] Initializing Memory Match Arena v1.0.0');
 
+    // Initialize Theme & Particles
+    themeManager.init();
+    particleEngine.init();
+    setupConfettiTriggers();
+
     // Register routes
     router.register('home', homeView);
     router.register('play', gameView);
     router.register('results', resultsView);
     router.register('profile', profileView);
+    router.register('settings', settingsView);
 
     // Initial Navbar User Badge Update
     this.updateUserBadge();

@@ -1,0 +1,15 @@
+/* Theme: Nature */
+body[data-theme="nature"] {
+  --bg-primary: #064e3b;
+  --bg-secondary: #065f46;
+  --bg-tertiary: #047857;
+  --accent-primary: #34d399;
+  --accent-secondary: #facc15;
+  --gradient-primary: linear-gradient(135deg, #059669 0%, #10b981 100%);
+  --gradient-card-back: linear-gradient(135deg, #14532d 0%, #166534 100%);
+  --border-color-glow: rgba(52, 211, 153, 0.4);
+}
+
+body[data-theme="nature"] .card-back::after {
+  content: '🌿';
+}

@@ -1,0 +1,15 @@
+/* Theme: Animals */
+body[data-theme="animals"] {
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-tertiary: #334155;
+  --accent-primary: #10b981;
+  --accent-secondary: #f59e0b;
+  --gradient-primary: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  --gradient-card-back: linear-gradient(135deg, #065f46 0%, #047857 100%);
+  --border-color-glow: rgba(16, 185, 129, 0.4);
+}
+
+body[data-theme="animals"] .card-back::after {
+  content: '🐾';
+}
