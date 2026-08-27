@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  memory-match-arena:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: memory-match-arena:latest
+    container_name: memory_match_arena_web
+    ports:
+      - "8080:80"
+    restart: always
