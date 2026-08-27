@@ -1,15 +1,835 @@
-/* Theme: Fantasy */
+/* Extended Visual Theme Stylesheet: Fantasy */
 body[data-theme="fantasy"] {
-  --bg-primary: #2e1065;
-  --bg-secondary: #3b0764;
-  --bg-tertiary: #581c87;
-  --accent-primary: #a855f7;
-  --accent-secondary: #f43f5e;
-  --gradient-primary: linear-gradient(135deg, #a855f7 0%, #d946ef 100%);
-  --gradient-card-back: linear-gradient(135deg, #4c1d95 0%, #6b21a8 100%);
-  --border-color-glow: rgba(168, 85, 247, 0.4);
+  --theme-token-1: #1e293b;
+  --theme-gradient-1: linear-gradient(15deg, #1e293b 0%, #6366f1 100%);
+  --theme-token-2: #334155;
+  --theme-gradient-2: linear-gradient(30deg, #334155 0%, #ec4899 100%);
+  --theme-token-3: #6366f1;
+  --theme-gradient-3: linear-gradient(45deg, #6366f1 0%, #f59e0b 100%);
+  --theme-token-4: #ec4899;
+  --theme-gradient-4: linear-gradient(60deg, #ec4899 0%, #10b981 100%);
+  --theme-token-5: #f59e0b;
+  --theme-gradient-5: linear-gradient(75deg, #f59e0b 0%, #0f172a 100%);
+  --theme-token-6: #10b981;
+  --theme-gradient-6: linear-gradient(90deg, #10b981 0%, #1e293b 100%);
+  --theme-token-7: #0f172a;
+  --theme-gradient-7: linear-gradient(105deg, #0f172a 0%, #334155 100%);
+  --theme-token-8: #1e293b;
+  --theme-gradient-8: linear-gradient(120deg, #1e293b 0%, #6366f1 100%);
+  --theme-token-9: #334155;
+  --theme-gradient-9: linear-gradient(135deg, #334155 0%, #ec4899 100%);
+  --theme-token-10: #6366f1;
+  --theme-gradient-10: linear-gradient(150deg, #6366f1 0%, #f59e0b 100%);
+  --theme-token-11: #ec4899;
+  --theme-gradient-11: linear-gradient(165deg, #ec4899 0%, #10b981 100%);
+  --theme-token-12: #f59e0b;
+  --theme-gradient-12: linear-gradient(180deg, #f59e0b 0%, #0f172a 100%);
+  --theme-token-13: #10b981;
+  --theme-gradient-13: linear-gradient(195deg, #10b981 0%, #1e293b 100%);
+  --theme-token-14: #0f172a;
+  --theme-gradient-14: linear-gradient(210deg, #0f172a 0%, #334155 100%);
+  --theme-token-15: #1e293b;
+  --theme-gradient-15: linear-gradient(225deg, #1e293b 0%, #6366f1 100%);
+  --theme-token-16: #334155;
+  --theme-gradient-16: linear-gradient(240deg, #334155 0%, #ec4899 100%);
+  --theme-token-17: #6366f1;
+  --theme-gradient-17: linear-gradient(255deg, #6366f1 0%, #f59e0b 100%);
+  --theme-token-18: #ec4899;
+  --theme-gradient-18: linear-gradient(270deg, #ec4899 0%, #10b981 100%);
+  --theme-token-19: #f59e0b;
+  --theme-gradient-19: linear-gradient(285deg, #f59e0b 0%, #0f172a 100%);
+  --theme-token-20: #10b981;
+  --theme-gradient-20: linear-gradient(300deg, #10b981 0%, #1e293b 100%);
+  --theme-token-21: #0f172a;
+  --theme-gradient-21: linear-gradient(315deg, #0f172a 0%, #334155 100%);
+  --theme-token-22: #1e293b;
+  --theme-gradient-22: linear-gradient(330deg, #1e293b 0%, #6366f1 100%);
+  --theme-token-23: #334155;
+  --theme-gradient-23: linear-gradient(345deg, #334155 0%, #ec4899 100%);
+  --theme-token-24: #6366f1;
+  --theme-gradient-24: linear-gradient(360deg, #6366f1 0%, #f59e0b 100%);
+  --theme-token-25: #ec4899;
+  --theme-gradient-25: linear-gradient(375deg, #ec4899 0%, #10b981 100%);
+  --theme-token-26: #f59e0b;
+  --theme-gradient-26: linear-gradient(390deg, #f59e0b 0%, #0f172a 100%);
+  --theme-token-27: #10b981;
+  --theme-gradient-27: linear-gradient(405deg, #10b981 0%, #1e293b 100%);
+  --theme-token-28: #0f172a;
+  --theme-gradient-28: linear-gradient(420deg, #0f172a 0%, #334155 100%);
+  --theme-token-29: #1e293b;
+  --theme-gradient-29: linear-gradient(435deg, #1e293b 0%, #6366f1 100%);
+  --theme-token-30: #334155;
+  --theme-gradient-30: linear-gradient(450deg, #334155 0%, #ec4899 100%);
+  --theme-token-31: #6366f1;
+  --theme-gradient-31: linear-gradient(465deg, #6366f1 0%, #f59e0b 100%);
+  --theme-token-32: #ec4899;
+  --theme-gradient-32: linear-gradient(480deg, #ec4899 0%, #10b981 100%);
+  --theme-token-33: #f59e0b;
+  --theme-gradient-33: linear-gradient(495deg, #f59e0b 0%, #0f172a 100%);
+  --theme-token-34: #10b981;
+  --theme-gradient-34: linear-gradient(510deg, #10b981 0%, #1e293b 100%);
+  --theme-token-35: #0f172a;
+  --theme-gradient-35: linear-gradient(525deg, #0f172a 0%, #334155 100%);
+  --theme-token-36: #1e293b;
+  --theme-gradient-36: linear-gradient(540deg, #1e293b 0%, #6366f1 100%);
+  --theme-token-37: #334155;
+  --theme-gradient-37: linear-gradient(555deg, #334155 0%, #ec4899 100%);
+  --theme-token-38: #6366f1;
+  --theme-gradient-38: linear-gradient(570deg, #6366f1 0%, #f59e0b 100%);
+  --theme-token-39: #ec4899;
+  --theme-gradient-39: linear-gradient(585deg, #ec4899 0%, #10b981 100%);
+  --theme-token-40: #f59e0b;
+  --theme-gradient-40: linear-gradient(600deg, #f59e0b 0%, #0f172a 100%);
+  --theme-token-41: #10b981;
+  --theme-gradient-41: linear-gradient(615deg, #10b981 0%, #1e293b 100%);
+  --theme-token-42: #0f172a;
+  --theme-gradient-42: linear-gradient(630deg, #0f172a 0%, #334155 100%);
+  --theme-token-43: #1e293b;
+  --theme-gradient-43: linear-gradient(645deg, #1e293b 0%, #6366f1 100%);
+  --theme-token-44: #334155;
+  --theme-gradient-44: linear-gradient(660deg, #334155 0%, #ec4899 100%);
+  --theme-token-45: #6366f1;
+  --theme-gradient-45: linear-gradient(675deg, #6366f1 0%, #f59e0b 100%);
+  --theme-token-46: #ec4899;
+  --theme-gradient-46: linear-gradient(690deg, #ec4899 0%, #10b981 100%);
+  --theme-token-47: #f59e0b;
+  --theme-gradient-47: linear-gradient(705deg, #f59e0b 0%, #0f172a 100%);
+  --theme-token-48: #10b981;
+  --theme-gradient-48: linear-gradient(720deg, #10b981 0%, #1e293b 100%);
+  --theme-token-49: #0f172a;
+  --theme-gradient-49: linear-gradient(735deg, #0f172a 0%, #334155 100%);
+  --theme-token-50: #1e293b;
+  --theme-gradient-50: linear-gradient(750deg, #1e293b 0%, #6366f1 100%);
+  --theme-token-51: #334155;
+  --theme-gradient-51: linear-gradient(765deg, #334155 0%, #ec4899 100%);
+  --theme-token-52: #6366f1;
+  --theme-gradient-52: linear-gradient(780deg, #6366f1 0%, #f59e0b 100%);
+  --theme-token-53: #ec4899;
+  --theme-gradient-53: linear-gradient(795deg, #ec4899 0%, #10b981 100%);
+  --theme-token-54: #f59e0b;
+  --theme-gradient-54: linear-gradient(810deg, #f59e0b 0%, #0f172a 100%);
+  --theme-token-55: #10b981;
+  --theme-gradient-55: linear-gradient(825deg, #10b981 0%, #1e293b 100%);
+  --theme-token-56: #0f172a;
+  --theme-gradient-56: linear-gradient(840deg, #0f172a 0%, #334155 100%);
+  --theme-token-57: #1e293b;
+  --theme-gradient-57: linear-gradient(855deg, #1e293b 0%, #6366f1 100%);
+  --theme-token-58: #334155;
+  --theme-gradient-58: linear-gradient(870deg, #334155 0%, #ec4899 100%);
+  --theme-token-59: #6366f1;
+  --theme-gradient-59: linear-gradient(885deg, #6366f1 0%, #f59e0b 100%);
+  --theme-token-60: #ec4899;
+  --theme-gradient-60: linear-gradient(900deg, #ec4899 0%, #10b981 100%);
+  --theme-token-61: #f59e0b;
+  --theme-gradient-61: linear-gradient(915deg, #f59e0b 0%, #0f172a 100%);
+  --theme-token-62: #10b981;
+  --theme-gradient-62: linear-gradient(930deg, #10b981 0%, #1e293b 100%);
+  --theme-token-63: #0f172a;
+  --theme-gradient-63: linear-gradient(945deg, #0f172a 0%, #334155 100%);
+  --theme-token-64: #1e293b;
+  --theme-gradient-64: linear-gradient(960deg, #1e293b 0%, #6366f1 100%);
+  --theme-token-65: #334155;
+  --theme-gradient-65: linear-gradient(975deg, #334155 0%, #ec4899 100%);
+  --theme-token-66: #6366f1;
+  --theme-gradient-66: linear-gradient(990deg, #6366f1 0%, #f59e0b 100%);
+  --theme-token-67: #ec4899;
+  --theme-gradient-67: linear-gradient(1005deg, #ec4899 0%, #10b981 100%);
+  --theme-token-68: #f59e0b;
+  --theme-gradient-68: linear-gradient(1020deg, #f59e0b 0%, #0f172a 100%);
+  --theme-token-69: #10b981;
+  --theme-gradient-69: linear-gradient(1035deg, #10b981 0%, #1e293b 100%);
+  --theme-token-70: #0f172a;
+  --theme-gradient-70: linear-gradient(1050deg, #0f172a 0%, #334155 100%);
+  --theme-token-71: #1e293b;
+  --theme-gradient-71: linear-gradient(1065deg, #1e293b 0%, #6366f1 100%);
+  --theme-token-72: #334155;
+  --theme-gradient-72: linear-gradient(1080deg, #334155 0%, #ec4899 100%);
+  --theme-token-73: #6366f1;
+  --theme-gradient-73: linear-gradient(1095deg, #6366f1 0%, #f59e0b 100%);
+  --theme-token-74: #ec4899;
+  --theme-gradient-74: linear-gradient(1110deg, #ec4899 0%, #10b981 100%);
+  --theme-token-75: #f59e0b;
+  --theme-gradient-75: linear-gradient(1125deg, #f59e0b 0%, #0f172a 100%);
+  --theme-token-76: #10b981;
+  --theme-gradient-76: linear-gradient(1140deg, #10b981 0%, #1e293b 100%);
+  --theme-token-77: #0f172a;
+  --theme-gradient-77: linear-gradient(1155deg, #0f172a 0%, #334155 100%);
+  --theme-token-78: #1e293b;
+  --theme-gradient-78: linear-gradient(1170deg, #1e293b 0%, #6366f1 100%);
+  --theme-token-79: #334155;
+  --theme-gradient-79: linear-gradient(1185deg, #334155 0%, #ec4899 100%);
+  --theme-token-80: #6366f1;
+  --theme-gradient-80: linear-gradient(1200deg, #6366f1 0%, #f59e0b 100%);
+  --theme-token-81: #ec4899;
+  --theme-gradient-81: linear-gradient(1215deg, #ec4899 0%, #10b981 100%);
+  --theme-token-82: #f59e0b;
+  --theme-gradient-82: linear-gradient(1230deg, #f59e0b 0%, #0f172a 100%);
+  --theme-token-83: #10b981;
+  --theme-gradient-83: linear-gradient(1245deg, #10b981 0%, #1e293b 100%);
+  --theme-token-84: #0f172a;
+  --theme-gradient-84: linear-gradient(1260deg, #0f172a 0%, #334155 100%);
+  --theme-token-85: #1e293b;
+  --theme-gradient-85: linear-gradient(1275deg, #1e293b 0%, #6366f1 100%);
+  --theme-token-86: #334155;
+  --theme-gradient-86: linear-gradient(1290deg, #334155 0%, #ec4899 100%);
+  --theme-token-87: #6366f1;
+  --theme-gradient-87: linear-gradient(1305deg, #6366f1 0%, #f59e0b 100%);
+  --theme-token-88: #ec4899;
+  --theme-gradient-88: linear-gradient(1320deg, #ec4899 0%, #10b981 100%);
+  --theme-token-89: #f59e0b;
+  --theme-gradient-89: linear-gradient(1335deg, #f59e0b 0%, #0f172a 100%);
+  --theme-token-90: #10b981;
+  --theme-gradient-90: linear-gradient(1350deg, #10b981 0%, #1e293b 100%);
+  --theme-token-91: #0f172a;
+  --theme-gradient-91: linear-gradient(1365deg, #0f172a 0%, #334155 100%);
+  --theme-token-92: #1e293b;
+  --theme-gradient-92: linear-gradient(1380deg, #1e293b 0%, #6366f1 100%);
+  --theme-token-93: #334155;
+  --theme-gradient-93: linear-gradient(1395deg, #334155 0%, #ec4899 100%);
+  --theme-token-94: #6366f1;
+  --theme-gradient-94: linear-gradient(1410deg, #6366f1 0%, #f59e0b 100%);
+  --theme-token-95: #ec4899;
+  --theme-gradient-95: linear-gradient(1425deg, #ec4899 0%, #10b981 100%);
+  --theme-token-96: #f59e0b;
+  --theme-gradient-96: linear-gradient(1440deg, #f59e0b 0%, #0f172a 100%);
+  --theme-token-97: #10b981;
+  --theme-gradient-97: linear-gradient(1455deg, #10b981 0%, #1e293b 100%);
+  --theme-token-98: #0f172a;
+  --theme-gradient-98: linear-gradient(1470deg, #0f172a 0%, #334155 100%);
+  --theme-token-99: #1e293b;
+  --theme-gradient-99: linear-gradient(1485deg, #1e293b 0%, #6366f1 100%);
+  --theme-token-100: #334155;
+  --theme-gradient-100: linear-gradient(1500deg, #334155 0%, #ec4899 100%);
+  --theme-token-101: #6366f1;
+  --theme-gradient-101: linear-gradient(1515deg, #6366f1 0%, #f59e0b 100%);
+  --theme-token-102: #ec4899;
+  --theme-gradient-102: linear-gradient(1530deg, #ec4899 0%, #10b981 100%);
+  --theme-token-103: #f59e0b;
+  --theme-gradient-103: linear-gradient(1545deg, #f59e0b 0%, #0f172a 100%);
+  --theme-token-104: #10b981;
+  --theme-gradient-104: linear-gradient(1560deg, #10b981 0%, #1e293b 100%);
+  --theme-token-105: #0f172a;
+  --theme-gradient-105: linear-gradient(1575deg, #0f172a 0%, #334155 100%);
+  --theme-token-106: #1e293b;
+  --theme-gradient-106: linear-gradient(1590deg, #1e293b 0%, #6366f1 100%);
+  --theme-token-107: #334155;
+  --theme-gradient-107: linear-gradient(1605deg, #334155 0%, #ec4899 100%);
+  --theme-token-108: #6366f1;
+  --theme-gradient-108: linear-gradient(1620deg, #6366f1 0%, #f59e0b 100%);
+  --theme-token-109: #ec4899;
+  --theme-gradient-109: linear-gradient(1635deg, #ec4899 0%, #10b981 100%);
+  --theme-token-110: #f59e0b;
+  --theme-gradient-110: linear-gradient(1650deg, #f59e0b 0%, #0f172a 100%);
+  --theme-token-111: #10b981;
+  --theme-gradient-111: linear-gradient(1665deg, #10b981 0%, #1e293b 100%);
+  --theme-token-112: #0f172a;
+  --theme-gradient-112: linear-gradient(1680deg, #0f172a 0%, #334155 100%);
+  --theme-token-113: #1e293b;
+  --theme-gradient-113: linear-gradient(1695deg, #1e293b 0%, #6366f1 100%);
+  --theme-token-114: #334155;
+  --theme-gradient-114: linear-gradient(1710deg, #334155 0%, #ec4899 100%);
+  --theme-token-115: #6366f1;
+  --theme-gradient-115: linear-gradient(1725deg, #6366f1 0%, #f59e0b 100%);
+  --theme-token-116: #ec4899;
+  --theme-gradient-116: linear-gradient(1740deg, #ec4899 0%, #10b981 100%);
+  --theme-token-117: #f59e0b;
+  --theme-gradient-117: linear-gradient(1755deg, #f59e0b 0%, #0f172a 100%);
+  --theme-token-118: #10b981;
+  --theme-gradient-118: linear-gradient(1770deg, #10b981 0%, #1e293b 100%);
+  --theme-token-119: #0f172a;
+  --theme-gradient-119: linear-gradient(1785deg, #0f172a 0%, #334155 100%);
 }
 
-body[data-theme="fantasy"] .card-back::after {
-  content: '🔮';
+body[data-theme="fantasy"] .theme-element-1 {
+  background: var(--theme-gradient-2);
+  border-radius: 5px;
+  box-shadow: 0 3px 9px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-2 {
+  background: var(--theme-gradient-3);
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-3 {
+  background: var(--theme-gradient-4);
+  border-radius: 7px;
+  box-shadow: 0 5px 11px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-4 {
+  background: var(--theme-gradient-5);
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-5 {
+  background: var(--theme-gradient-6);
+  border-radius: 9px;
+  box-shadow: 0 7px 13px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-6 {
+  background: var(--theme-gradient-7);
+  border-radius: 10px;
+  box-shadow: 0 8px 14px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-7 {
+  background: var(--theme-gradient-8);
+  border-radius: 11px;
+  box-shadow: 0 9px 15px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-8 {
+  background: var(--theme-gradient-9);
+  border-radius: 12px;
+  box-shadow: 0 10px 16px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-9 {
+  background: var(--theme-gradient-10);
+  border-radius: 13px;
+  box-shadow: 0 11px 17px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-10 {
+  background: var(--theme-gradient-11);
+  border-radius: 14px;
+  box-shadow: 0 2px 18px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-11 {
+  background: var(--theme-gradient-12);
+  border-radius: 15px;
+  box-shadow: 0 3px 19px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-12 {
+  background: var(--theme-gradient-13);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-13 {
+  background: var(--theme-gradient-14);
+  border-radius: 17px;
+  box-shadow: 0 5px 21px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-14 {
+  background: var(--theme-gradient-15);
+  border-radius: 18px;
+  box-shadow: 0 6px 22px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-15 {
+  background: var(--theme-gradient-16);
+  border-radius: 19px;
+  box-shadow: 0 7px 23px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-16 {
+  background: var(--theme-gradient-17);
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-17 {
+  background: var(--theme-gradient-18);
+  border-radius: 21px;
+  box-shadow: 0 9px 25px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-18 {
+  background: var(--theme-gradient-19);
+  border-radius: 22px;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-19 {
+  background: var(--theme-gradient-20);
+  border-radius: 23px;
+  box-shadow: 0 11px 27px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-20 {
+  background: var(--theme-gradient-21);
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-21 {
+  background: var(--theme-gradient-22);
+  border-radius: 5px;
+  box-shadow: 0 3px 9px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-22 {
+  background: var(--theme-gradient-23);
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-23 {
+  background: var(--theme-gradient-24);
+  border-radius: 7px;
+  box-shadow: 0 5px 11px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-24 {
+  background: var(--theme-gradient-25);
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-25 {
+  background: var(--theme-gradient-26);
+  border-radius: 9px;
+  box-shadow: 0 7px 13px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-26 {
+  background: var(--theme-gradient-27);
+  border-radius: 10px;
+  box-shadow: 0 8px 14px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-27 {
+  background: var(--theme-gradient-28);
+  border-radius: 11px;
+  box-shadow: 0 9px 15px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-28 {
+  background: var(--theme-gradient-29);
+  border-radius: 12px;
+  box-shadow: 0 10px 16px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-29 {
+  background: var(--theme-gradient-30);
+  border-radius: 13px;
+  box-shadow: 0 11px 17px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-30 {
+  background: var(--theme-gradient-31);
+  border-radius: 14px;
+  box-shadow: 0 2px 18px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-31 {
+  background: var(--theme-gradient-32);
+  border-radius: 15px;
+  box-shadow: 0 3px 19px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-32 {
+  background: var(--theme-gradient-33);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-33 {
+  background: var(--theme-gradient-34);
+  border-radius: 17px;
+  box-shadow: 0 5px 21px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-34 {
+  background: var(--theme-gradient-35);
+  border-radius: 18px;
+  box-shadow: 0 6px 22px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-35 {
+  background: var(--theme-gradient-36);
+  border-radius: 19px;
+  box-shadow: 0 7px 23px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-36 {
+  background: var(--theme-gradient-37);
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-37 {
+  background: var(--theme-gradient-38);
+  border-radius: 21px;
+  box-shadow: 0 9px 25px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-38 {
+  background: var(--theme-gradient-39);
+  border-radius: 22px;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-39 {
+  background: var(--theme-gradient-40);
+  border-radius: 23px;
+  box-shadow: 0 11px 27px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-40 {
+  background: var(--theme-gradient-41);
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-41 {
+  background: var(--theme-gradient-42);
+  border-radius: 5px;
+  box-shadow: 0 3px 9px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-42 {
+  background: var(--theme-gradient-43);
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-43 {
+  background: var(--theme-gradient-44);
+  border-radius: 7px;
+  box-shadow: 0 5px 11px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-44 {
+  background: var(--theme-gradient-45);
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-45 {
+  background: var(--theme-gradient-46);
+  border-radius: 9px;
+  box-shadow: 0 7px 13px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-46 {
+  background: var(--theme-gradient-47);
+  border-radius: 10px;
+  box-shadow: 0 8px 14px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-47 {
+  background: var(--theme-gradient-48);
+  border-radius: 11px;
+  box-shadow: 0 9px 15px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-48 {
+  background: var(--theme-gradient-49);
+  border-radius: 12px;
+  box-shadow: 0 10px 16px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-49 {
+  background: var(--theme-gradient-50);
+  border-radius: 13px;
+  box-shadow: 0 11px 17px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-50 {
+  background: var(--theme-gradient-51);
+  border-radius: 14px;
+  box-shadow: 0 2px 18px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-51 {
+  background: var(--theme-gradient-52);
+  border-radius: 15px;
+  box-shadow: 0 3px 19px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-52 {
+  background: var(--theme-gradient-53);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-53 {
+  background: var(--theme-gradient-54);
+  border-radius: 17px;
+  box-shadow: 0 5px 21px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-54 {
+  background: var(--theme-gradient-55);
+  border-radius: 18px;
+  box-shadow: 0 6px 22px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-55 {
+  background: var(--theme-gradient-56);
+  border-radius: 19px;
+  box-shadow: 0 7px 23px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-56 {
+  background: var(--theme-gradient-57);
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-57 {
+  background: var(--theme-gradient-58);
+  border-radius: 21px;
+  box-shadow: 0 9px 25px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-58 {
+  background: var(--theme-gradient-59);
+  border-radius: 22px;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-59 {
+  background: var(--theme-gradient-60);
+  border-radius: 23px;
+  box-shadow: 0 11px 27px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-60 {
+  background: var(--theme-gradient-61);
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-61 {
+  background: var(--theme-gradient-62);
+  border-radius: 5px;
+  box-shadow: 0 3px 9px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-62 {
+  background: var(--theme-gradient-63);
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-63 {
+  background: var(--theme-gradient-64);
+  border-radius: 7px;
+  box-shadow: 0 5px 11px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-64 {
+  background: var(--theme-gradient-65);
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-65 {
+  background: var(--theme-gradient-66);
+  border-radius: 9px;
+  box-shadow: 0 7px 13px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-66 {
+  background: var(--theme-gradient-67);
+  border-radius: 10px;
+  box-shadow: 0 8px 14px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-67 {
+  background: var(--theme-gradient-68);
+  border-radius: 11px;
+  box-shadow: 0 9px 15px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-68 {
+  background: var(--theme-gradient-69);
+  border-radius: 12px;
+  box-shadow: 0 10px 16px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-69 {
+  background: var(--theme-gradient-70);
+  border-radius: 13px;
+  box-shadow: 0 11px 17px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-70 {
+  background: var(--theme-gradient-71);
+  border-radius: 14px;
+  box-shadow: 0 2px 18px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-71 {
+  background: var(--theme-gradient-72);
+  border-radius: 15px;
+  box-shadow: 0 3px 19px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-72 {
+  background: var(--theme-gradient-73);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-73 {
+  background: var(--theme-gradient-74);
+  border-radius: 17px;
+  box-shadow: 0 5px 21px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-74 {
+  background: var(--theme-gradient-75);
+  border-radius: 18px;
+  box-shadow: 0 6px 22px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-75 {
+  background: var(--theme-gradient-76);
+  border-radius: 19px;
+  box-shadow: 0 7px 23px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-76 {
+  background: var(--theme-gradient-77);
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-77 {
+  background: var(--theme-gradient-78);
+  border-radius: 21px;
+  box-shadow: 0 9px 25px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-78 {
+  background: var(--theme-gradient-79);
+  border-radius: 22px;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-79 {
+  background: var(--theme-gradient-80);
+  border-radius: 23px;
+  box-shadow: 0 11px 27px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-80 {
+  background: var(--theme-gradient-81);
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-81 {
+  background: var(--theme-gradient-82);
+  border-radius: 5px;
+  box-shadow: 0 3px 9px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-82 {
+  background: var(--theme-gradient-83);
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-83 {
+  background: var(--theme-gradient-84);
+  border-radius: 7px;
+  box-shadow: 0 5px 11px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-84 {
+  background: var(--theme-gradient-85);
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-85 {
+  background: var(--theme-gradient-86);
+  border-radius: 9px;
+  box-shadow: 0 7px 13px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-86 {
+  background: var(--theme-gradient-87);
+  border-radius: 10px;
+  box-shadow: 0 8px 14px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-87 {
+  background: var(--theme-gradient-88);
+  border-radius: 11px;
+  box-shadow: 0 9px 15px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-88 {
+  background: var(--theme-gradient-89);
+  border-radius: 12px;
+  box-shadow: 0 10px 16px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-89 {
+  background: var(--theme-gradient-90);
+  border-radius: 13px;
+  box-shadow: 0 11px 17px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-90 {
+  background: var(--theme-gradient-91);
+  border-radius: 14px;
+  box-shadow: 0 2px 18px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-91 {
+  background: var(--theme-gradient-92);
+  border-radius: 15px;
+  box-shadow: 0 3px 19px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-92 {
+  background: var(--theme-gradient-93);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-93 {
+  background: var(--theme-gradient-94);
+  border-radius: 17px;
+  box-shadow: 0 5px 21px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-94 {
+  background: var(--theme-gradient-95);
+  border-radius: 18px;
+  box-shadow: 0 6px 22px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-95 {
+  background: var(--theme-gradient-96);
+  border-radius: 19px;
+  box-shadow: 0 7px 23px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-96 {
+  background: var(--theme-gradient-97);
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-97 {
+  background: var(--theme-gradient-98);
+  border-radius: 21px;
+  box-shadow: 0 9px 25px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-98 {
+  background: var(--theme-gradient-99);
+  border-radius: 22px;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.3);
+}
+
+body[data-theme="fantasy"] .theme-element-99 {
+  background: var(--theme-gradient-100);
+  border-radius: 23px;
+  box-shadow: 0 11px 27px rgba(0,0,0,0.3);
 }
