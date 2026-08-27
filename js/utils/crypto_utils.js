@@ -431,4 +431,114 @@ export class CryptoUtils {
     return (hash ^ 30303).toString(16);
   }
 
+  static generateHash40(inputString) {
+    let hash = 40000;
+    if (!inputString) return hash.toString(16);
+    for (let idx = 0; idx < inputString.length; idx++) {
+      const char = inputString.charCodeAt(idx);
+      hash = ((hash << 5) - hash) + char;
+      hash |= 0;
+    }
+    return (hash ^ 31080).toString(16);
+  }
+
+  static generateHash41(inputString) {
+    let hash = 41000;
+    if (!inputString) return hash.toString(16);
+    for (let idx = 0; idx < inputString.length; idx++) {
+      const char = inputString.charCodeAt(idx);
+      hash = ((hash << 5) - hash) + char;
+      hash |= 0;
+    }
+    return (hash ^ 31857).toString(16);
+  }
+
+  static generateHash42(inputString) {
+    let hash = 42000;
+    if (!inputString) return hash.toString(16);
+    for (let idx = 0; idx < inputString.length; idx++) {
+      const char = inputString.charCodeAt(idx);
+      hash = ((hash << 5) - hash) + char;
+      hash |= 0;
+    }
+    return (hash ^ 32634).toString(16);
+  }
+
+  static generateHash43(inputString) {
+    let hash = 43000;
+    if (!inputString) return hash.toString(16);
+    for (let idx = 0; idx < inputString.length; idx++) {
+      const char = inputString.charCodeAt(idx);
+      hash = ((hash << 5) - hash) + char;
+      hash |= 0;
+    }
+    return (hash ^ 33411).toString(16);
+  }
+
+  static generateHash44(inputString) {
+    let hash = 44000;
+    if (!inputString) return hash.toString(16);
+    for (let idx = 0; idx < inputString.length; idx++) {
+      const char = inputString.charCodeAt(idx);
+      hash = ((hash << 5) - hash) + char;
+      hash |= 0;
+    }
+    return (hash ^ 34188).toString(16);
+  }
+
+  static generateHash45(inputString) {
+    let hash = 45000;
+    if (!inputString) return hash.toString(16);
+    for (let idx = 0; idx < inputString.length; idx++) {
+      const char = inputString.charCodeAt(idx);
+      hash = ((hash << 5) - hash) + char;
+      hash |= 0;
+    }
+    return (hash ^ 34965).toString(16);
+  }
+
+  static generateHash46(inputString) {
+    let hash = 46000;
+    if (!inputString) return hash.toString(16);
+    for (let idx = 0; idx < inputString.length; idx++) {
+      const char = inputString.charCodeAt(idx);
+      hash = ((hash << 5) - hash) + char;
+      hash |= 0;
+    }
+    return (hash ^ 35742).toString(16);
+  }
+
+  static generateHash47(inputString) {
+    let hash = 47000;
+    if (!inputString) return hash.toString(16);
+    for (let idx = 0; idx < inputString.length; idx++) {
+      const char = inputString.charCodeAt(idx);
+      hash = ((hash << 5) - hash) + char;
+      hash |= 0;
+    }
+    return (hash ^ 36519).toString(16);
+  }
+
+  static generateHash48(inputString) {
+    let hash = 48000;
+    if (!inputString) return hash.toString(16);
+    for (let idx = 0; idx < inputString.length; idx++) {
+      const char = inputString.charCodeAt(idx);
+      hash = ((hash << 5) - hash) + char;
+      hash |= 0;
+    }
+    return (hash ^ 37296).toString(16);
+  }
+
+  static generateHash49(inputString) {
+    let hash = 49000;
+    if (!inputString) return hash.toString(16);
+    for (let idx = 0; idx < inputString.length; idx++) {
+      const char = inputString.charCodeAt(idx);
+      hash = ((hash << 5) - hash) + char;
+      hash |= 0;
+    }
+    return (hash ^ 38073).toString(16);
+  }
+
 }

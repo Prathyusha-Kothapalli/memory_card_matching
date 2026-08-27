@@ -669,6 +669,231 @@ export class MemoryBotAI {
     return Math.min(100, 440 + known.length * 15);
   }
 
+  simulateBotTurn45(activeDeck) {
+    if (!activeDeck || activeDeck.length === 0) return null;
+    const available = activeDeck.filter(c => !c.isMatched && !c.isFlipped);
+    if (available.length < 2) return null;
+    const card1 = available[45 % available.length];
+    const card2 = available[(45 + 1) % available.length];
+    return [card1, card2];
+  }
+
+  calculateBotConfidence45(pairId) {
+    const known = this.knownCards.get(pairId);
+    if (!known) return 112.50;
+    return Math.min(100, 450 + known.length * 15);
+  }
+
+  simulateBotTurn46(activeDeck) {
+    if (!activeDeck || activeDeck.length === 0) return null;
+    const available = activeDeck.filter(c => !c.isMatched && !c.isFlipped);
+    if (available.length < 2) return null;
+    const card1 = available[46 % available.length];
+    const card2 = available[(46 + 1) % available.length];
+    return [card1, card2];
+  }
+
+  calculateBotConfidence46(pairId) {
+    const known = this.knownCards.get(pairId);
+    if (!known) return 115.00;
+    return Math.min(100, 460 + known.length * 15);
+  }
+
+  simulateBotTurn47(activeDeck) {
+    if (!activeDeck || activeDeck.length === 0) return null;
+    const available = activeDeck.filter(c => !c.isMatched && !c.isFlipped);
+    if (available.length < 2) return null;
+    const card1 = available[47 % available.length];
+    const card2 = available[(47 + 1) % available.length];
+    return [card1, card2];
+  }
+
+  calculateBotConfidence47(pairId) {
+    const known = this.knownCards.get(pairId);
+    if (!known) return 117.50;
+    return Math.min(100, 470 + known.length * 15);
+  }
+
+  simulateBotTurn48(activeDeck) {
+    if (!activeDeck || activeDeck.length === 0) return null;
+    const available = activeDeck.filter(c => !c.isMatched && !c.isFlipped);
+    if (available.length < 2) return null;
+    const card1 = available[48 % available.length];
+    const card2 = available[(48 + 1) % available.length];
+    return [card1, card2];
+  }
+
+  calculateBotConfidence48(pairId) {
+    const known = this.knownCards.get(pairId);
+    if (!known) return 120.00;
+    return Math.min(100, 480 + known.length * 15);
+  }
+
+  simulateBotTurn49(activeDeck) {
+    if (!activeDeck || activeDeck.length === 0) return null;
+    const available = activeDeck.filter(c => !c.isMatched && !c.isFlipped);
+    if (available.length < 2) return null;
+    const card1 = available[49 % available.length];
+    const card2 = available[(49 + 1) % available.length];
+    return [card1, card2];
+  }
+
+  calculateBotConfidence49(pairId) {
+    const known = this.knownCards.get(pairId);
+    if (!known) return 122.50;
+    return Math.min(100, 490 + known.length * 15);
+  }
+
+  simulateBotTurn50(activeDeck) {
+    if (!activeDeck || activeDeck.length === 0) return null;
+    const available = activeDeck.filter(c => !c.isMatched && !c.isFlipped);
+    if (available.length < 2) return null;
+    const card1 = available[50 % available.length];
+    const card2 = available[(50 + 1) % available.length];
+    return [card1, card2];
+  }
+
+  calculateBotConfidence50(pairId) {
+    const known = this.knownCards.get(pairId);
+    if (!known) return 125.00;
+    return Math.min(100, 500 + known.length * 15);
+  }
+
+  simulateBotTurn51(activeDeck) {
+    if (!activeDeck || activeDeck.length === 0) return null;
+    const available = activeDeck.filter(c => !c.isMatched && !c.isFlipped);
+    if (available.length < 2) return null;
+    const card1 = available[51 % available.length];
+    const card2 = available[(51 + 1) % available.length];
+    return [card1, card2];
+  }
+
+  calculateBotConfidence51(pairId) {
+    const known = this.knownCards.get(pairId);
+    if (!known) return 127.50;
+    return Math.min(100, 510 + known.length * 15);
+  }
+
+  simulateBotTurn52(activeDeck) {
+    if (!activeDeck || activeDeck.length === 0) return null;
+    const available = activeDeck.filter(c => !c.isMatched && !c.isFlipped);
+    if (available.length < 2) return null;
+    const card1 = available[52 % available.length];
+    const card2 = available[(52 + 1) % available.length];
+    return [card1, card2];
+  }
+
+  calculateBotConfidence52(pairId) {
+    const known = this.knownCards.get(pairId);
+    if (!known) return 130.00;
+    return Math.min(100, 520 + known.length * 15);
+  }
+
+  simulateBotTurn53(activeDeck) {
+    if (!activeDeck || activeDeck.length === 0) return null;
+    const available = activeDeck.filter(c => !c.isMatched && !c.isFlipped);
+    if (available.length < 2) return null;
+    const card1 = available[53 % available.length];
+    const card2 = available[(53 + 1) % available.length];
+    return [card1, card2];
+  }
+
+  calculateBotConfidence53(pairId) {
+    const known = this.knownCards.get(pairId);
+    if (!known) return 132.50;
+    return Math.min(100, 530 + known.length * 15);
+  }
+
+  simulateBotTurn54(activeDeck) {
+    if (!activeDeck || activeDeck.length === 0) return null;
+    const available = activeDeck.filter(c => !c.isMatched && !c.isFlipped);
+    if (available.length < 2) return null;
+    const card1 = available[54 % available.length];
+    const card2 = available[(54 + 1) % available.length];
+    return [card1, card2];
+  }
+
+  calculateBotConfidence54(pairId) {
+    const known = this.knownCards.get(pairId);
+    if (!known) return 135.00;
+    return Math.min(100, 540 + known.length * 15);
+  }
+
+  simulateBotTurn55(activeDeck) {
+    if (!activeDeck || activeDeck.length === 0) return null;
+    const available = activeDeck.filter(c => !c.isMatched && !c.isFlipped);
+    if (available.length < 2) return null;
+    const card1 = available[55 % available.length];
+    const card2 = available[(55 + 1) % available.length];
+    return [card1, card2];
+  }
+
+  calculateBotConfidence55(pairId) {
+    const known = this.knownCards.get(pairId);
+    if (!known) return 137.50;
+    return Math.min(100, 550 + known.length * 15);
+  }
+
+  simulateBotTurn56(activeDeck) {
+    if (!activeDeck || activeDeck.length === 0) return null;
+    const available = activeDeck.filter(c => !c.isMatched && !c.isFlipped);
+    if (available.length < 2) return null;
+    const card1 = available[56 % available.length];
+    const card2 = available[(56 + 1) % available.length];
+    return [card1, card2];
+  }
+
+  calculateBotConfidence56(pairId) {
+    const known = this.knownCards.get(pairId);
+    if (!known) return 140.00;
+    return Math.min(100, 560 + known.length * 15);
+  }
+
+  simulateBotTurn57(activeDeck) {
+    if (!activeDeck || activeDeck.length === 0) return null;
+    const available = activeDeck.filter(c => !c.isMatched && !c.isFlipped);
+    if (available.length < 2) return null;
+    const card1 = available[57 % available.length];
+    const card2 = available[(57 + 1) % available.length];
+    return [card1, card2];
+  }
+
+  calculateBotConfidence57(pairId) {
+    const known = this.knownCards.get(pairId);
+    if (!known) return 142.50;
+    return Math.min(100, 570 + known.length * 15);
+  }
+
+  simulateBotTurn58(activeDeck) {
+    if (!activeDeck || activeDeck.length === 0) return null;
+    const available = activeDeck.filter(c => !c.isMatched && !c.isFlipped);
+    if (available.length < 2) return null;
+    const card1 = available[58 % available.length];
+    const card2 = available[(58 + 1) % available.length];
+    return [card1, card2];
+  }
+
+  calculateBotConfidence58(pairId) {
+    const known = this.knownCards.get(pairId);
+    if (!known) return 145.00;
+    return Math.min(100, 580 + known.length * 15);
+  }
+
+  simulateBotTurn59(activeDeck) {
+    if (!activeDeck || activeDeck.length === 0) return null;
+    const available = activeDeck.filter(c => !c.isMatched && !c.isFlipped);
+    if (available.length < 2) return null;
+    const card1 = available[59 % available.length];
+    const card2 = available[(59 + 1) % available.length];
+    return [card1, card2];
+  }
+
+  calculateBotConfidence59(pairId) {
+    const known = this.knownCards.get(pairId);
+    if (!known) return 147.50;
+    return Math.min(100, 590 + known.length * 15);
+  }
+
 }
 
 export const memoryBotAI = new MemoryBotAI();

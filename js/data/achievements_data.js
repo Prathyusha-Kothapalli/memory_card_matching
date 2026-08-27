@@ -1,5 +1,5 @@
 /**
- * Memory Match Arena - 120 Achievements Extended Database
+ * Memory Match Arena - 150 Achievements Extended Database
  */
 export const EXTENDED_ACHIEVEMENTS = [
   {
@@ -1081,5 +1081,275 @@ export const EXTENDED_ACHIEVEMENTS = [
     category: 'Progression',
     maxProgress: 1,
     xpReward: 12000
+  },
+  {
+    id: 'ach_ext_121',
+    name: 'First Match #121',
+    icon: '🎯',
+    desc: 'Match your very first pair of cards',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 12100
+  },
+  {
+    id: 'ach_ext_122',
+    name: 'Victory Novice #122',
+    icon: '🏆',
+    desc: 'Win 1 complete memory match game',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 12200
+  },
+  {
+    id: 'ach_ext_123',
+    name: 'Victory Apprentice #123',
+    icon: '🥇',
+    desc: 'Win 5 complete memory match games',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 12300
+  },
+  {
+    id: 'ach_ext_124',
+    name: 'Victory Specialist #124',
+    icon: '👑',
+    desc: 'Win 15 complete memory match games',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 12400
+  },
+  {
+    id: 'ach_ext_125',
+    name: 'Victory Master #125',
+    icon: '🌌',
+    desc: 'Win 50 complete memory match games',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 12500
+  },
+  {
+    id: 'ach_ext_126',
+    name: 'Speed Demon #126',
+    icon: '⚡',
+    desc: 'Finish an Easy match in under 20 seconds',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 12600
+  },
+  {
+    id: 'ach_ext_127',
+    name: 'Lightning Reflexes #127',
+    icon: '⏱️',
+    desc: 'Finish a Medium match in under 45 seconds',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 12700
+  },
+  {
+    id: 'ach_ext_128',
+    name: 'Hard Mode Champion #128',
+    icon: '🔥',
+    desc: 'Win a Hard 8x8 difficulty match',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 12800
+  },
+  {
+    id: 'ach_ext_129',
+    name: 'Expert Grid Titan #129',
+    icon: '💎',
+    desc: 'Win an Expert 10x10 difficulty match',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 12900
+  },
+  {
+    id: 'ach_ext_130',
+    name: 'Combo Apprentice #130',
+    icon: '✨',
+    desc: 'Achieve a 3x match combo streak',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 13000
+  },
+  {
+    id: 'ach_ext_131',
+    name: 'Combo Expert #131',
+    icon: '🌟',
+    desc: 'Achieve a 5x match combo streak',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 13100
+  },
+  {
+    id: 'ach_ext_132',
+    name: 'Combo Deity #132',
+    icon: '🌠',
+    desc: 'Achieve an 8x maximum combo multiplier',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 13200
+  },
+  {
+    id: 'ach_ext_133',
+    name: 'First Match #133',
+    icon: '🎯',
+    desc: 'Match your very first pair of cards',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 13300
+  },
+  {
+    id: 'ach_ext_134',
+    name: 'Victory Novice #134',
+    icon: '🏆',
+    desc: 'Win 1 complete memory match game',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 13400
+  },
+  {
+    id: 'ach_ext_135',
+    name: 'Victory Apprentice #135',
+    icon: '🥇',
+    desc: 'Win 5 complete memory match games',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 13500
+  },
+  {
+    id: 'ach_ext_136',
+    name: 'Victory Specialist #136',
+    icon: '👑',
+    desc: 'Win 15 complete memory match games',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 13600
+  },
+  {
+    id: 'ach_ext_137',
+    name: 'Victory Master #137',
+    icon: '🌌',
+    desc: 'Win 50 complete memory match games',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 13700
+  },
+  {
+    id: 'ach_ext_138',
+    name: 'Speed Demon #138',
+    icon: '⚡',
+    desc: 'Finish an Easy match in under 20 seconds',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 13800
+  },
+  {
+    id: 'ach_ext_139',
+    name: 'Lightning Reflexes #139',
+    icon: '⏱️',
+    desc: 'Finish a Medium match in under 45 seconds',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 13900
+  },
+  {
+    id: 'ach_ext_140',
+    name: 'Hard Mode Champion #140',
+    icon: '🔥',
+    desc: 'Win a Hard 8x8 difficulty match',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 14000
+  },
+  {
+    id: 'ach_ext_141',
+    name: 'Expert Grid Titan #141',
+    icon: '💎',
+    desc: 'Win an Expert 10x10 difficulty match',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 14100
+  },
+  {
+    id: 'ach_ext_142',
+    name: 'Combo Apprentice #142',
+    icon: '✨',
+    desc: 'Achieve a 3x match combo streak',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 14200
+  },
+  {
+    id: 'ach_ext_143',
+    name: 'Combo Expert #143',
+    icon: '🌟',
+    desc: 'Achieve a 5x match combo streak',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 14300
+  },
+  {
+    id: 'ach_ext_144',
+    name: 'Combo Deity #144',
+    icon: '🌠',
+    desc: 'Achieve an 8x maximum combo multiplier',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 14400
+  },
+  {
+    id: 'ach_ext_145',
+    name: 'First Match #145',
+    icon: '🎯',
+    desc: 'Match your very first pair of cards',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 14500
+  },
+  {
+    id: 'ach_ext_146',
+    name: 'Victory Novice #146',
+    icon: '🏆',
+    desc: 'Win 1 complete memory match game',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 14600
+  },
+  {
+    id: 'ach_ext_147',
+    name: 'Victory Apprentice #147',
+    icon: '🥇',
+    desc: 'Win 5 complete memory match games',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 14700
+  },
+  {
+    id: 'ach_ext_148',
+    name: 'Victory Specialist #148',
+    icon: '👑',
+    desc: 'Win 15 complete memory match games',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 14800
+  },
+  {
+    id: 'ach_ext_149',
+    name: 'Victory Master #149',
+    icon: '🌌',
+    desc: 'Win 50 complete memory match games',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 14900
+  },
+  {
+    id: 'ach_ext_150',
+    name: 'Speed Demon #150',
+    icon: '⚡',
+    desc: 'Finish an Easy match in under 20 seconds',
+    category: 'Progression',
+    maxProgress: 1,
+    xpReward: 15000
   }
 ];

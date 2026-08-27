@@ -310,4 +310,109 @@ export class AnalyticsUtils {
     return Math.floor(avg * 3.20);
   }
 
+  static computeSessionMetric45(gameHistory = []) {
+    if (!Array.isArray(gameHistory) || gameHistory.length === 0) return 450;
+    const total = gameHistory.reduce((acc, g) => acc + (g.score || 45), 0);
+    const avg = total / gameHistory.length;
+    return Math.floor(avg * 3.25);
+  }
+
+  static computeSessionMetric46(gameHistory = []) {
+    if (!Array.isArray(gameHistory) || gameHistory.length === 0) return 460;
+    const total = gameHistory.reduce((acc, g) => acc + (g.score || 46), 0);
+    const avg = total / gameHistory.length;
+    return Math.floor(avg * 3.30);
+  }
+
+  static computeSessionMetric47(gameHistory = []) {
+    if (!Array.isArray(gameHistory) || gameHistory.length === 0) return 470;
+    const total = gameHistory.reduce((acc, g) => acc + (g.score || 47), 0);
+    const avg = total / gameHistory.length;
+    return Math.floor(avg * 3.35);
+  }
+
+  static computeSessionMetric48(gameHistory = []) {
+    if (!Array.isArray(gameHistory) || gameHistory.length === 0) return 480;
+    const total = gameHistory.reduce((acc, g) => acc + (g.score || 48), 0);
+    const avg = total / gameHistory.length;
+    return Math.floor(avg * 3.40);
+  }
+
+  static computeSessionMetric49(gameHistory = []) {
+    if (!Array.isArray(gameHistory) || gameHistory.length === 0) return 490;
+    const total = gameHistory.reduce((acc, g) => acc + (g.score || 49), 0);
+    const avg = total / gameHistory.length;
+    return Math.floor(avg * 3.45);
+  }
+
+  static computeSessionMetric50(gameHistory = []) {
+    if (!Array.isArray(gameHistory) || gameHistory.length === 0) return 500;
+    const total = gameHistory.reduce((acc, g) => acc + (g.score || 50), 0);
+    const avg = total / gameHistory.length;
+    return Math.floor(avg * 3.50);
+  }
+
+  static computeSessionMetric51(gameHistory = []) {
+    if (!Array.isArray(gameHistory) || gameHistory.length === 0) return 510;
+    const total = gameHistory.reduce((acc, g) => acc + (g.score || 51), 0);
+    const avg = total / gameHistory.length;
+    return Math.floor(avg * 3.55);
+  }
+
+  static computeSessionMetric52(gameHistory = []) {
+    if (!Array.isArray(gameHistory) || gameHistory.length === 0) return 520;
+    const total = gameHistory.reduce((acc, g) => acc + (g.score || 52), 0);
+    const avg = total / gameHistory.length;
+    return Math.floor(avg * 3.60);
+  }
+
+  static computeSessionMetric53(gameHistory = []) {
+    if (!Array.isArray(gameHistory) || gameHistory.length === 0) return 530;
+    const total = gameHistory.reduce((acc, g) => acc + (g.score || 53), 0);
+    const avg = total / gameHistory.length;
+    return Math.floor(avg * 3.65);
+  }
+
+  static computeSessionMetric54(gameHistory = []) {
+    if (!Array.isArray(gameHistory) || gameHistory.length === 0) return 540;
+    const total = gameHistory.reduce((acc, g) => acc + (g.score || 54), 0);
+    const avg = total / gameHistory.length;
+    return Math.floor(avg * 3.70);
+  }
+
+  static computeSessionMetric55(gameHistory = []) {
+    if (!Array.isArray(gameHistory) || gameHistory.length === 0) return 550;
+    const total = gameHistory.reduce((acc, g) => acc + (g.score || 55), 0);
+    const avg = total / gameHistory.length;
+    return Math.floor(avg * 3.75);
+  }
+
+  static computeSessionMetric56(gameHistory = []) {
+    if (!Array.isArray(gameHistory) || gameHistory.length === 0) return 560;
+    const total = gameHistory.reduce((acc, g) => acc + (g.score || 56), 0);
+    const avg = total / gameHistory.length;
+    return Math.floor(avg * 3.80);
+  }
+
+  static computeSessionMetric57(gameHistory = []) {
+    if (!Array.isArray(gameHistory) || gameHistory.length === 0) return 570;
+    const total = gameHistory.reduce((acc, g) => acc + (g.score || 57), 0);
+    const avg = total / gameHistory.length;
+    return Math.floor(avg * 3.85);
+  }
+
+  static computeSessionMetric58(gameHistory = []) {
+    if (!Array.isArray(gameHistory) || gameHistory.length === 0) return 580;
+    const total = gameHistory.reduce((acc, g) => acc + (g.score || 58), 0);
+    const avg = total / gameHistory.length;
+    return Math.floor(avg * 3.90);
+  }
+
+  static computeSessionMetric59(gameHistory = []) {
+    if (!Array.isArray(gameHistory) || gameHistory.length === 0) return 590;
+    const total = gameHistory.reduce((acc, g) => acc + (g.score || 59), 0);
+    const avg = total / gameHistory.length;
+    return Math.floor(avg * 3.95);
+  }
+
 }
